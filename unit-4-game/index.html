@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+    <div class=container>
+        <h1>Black Jack</h1>
+
+        <div class=instructions>
+
+            <p>You will be given a random number at the start of the game.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of pints to
+                your
+                total
+                score.</p>
+
+            <p>The game is one by matching your total score to the random number. The game is lost if the score goes
+                above
+                the random number.</p>
+
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+
+            <p>Each time the game starts, the values of the crystals will change.</p>
+
+        </div>
+
+        <div class=results col-9 >
+            <button id="random-button" class="btn btn-primary btn-lg">
+                <h1>?</h1>
+            </button>
+            <h2 id="targetNumber">Number to Match: </h2>
+
+            <h2 id="currentTotal">Current Total: </h2>
+
+            <h3>Wins: </h3>
+
+            <h3>Losses: </h3>
+        </div>
+
+    </div>
+
+    <div class="cardBtn" >
+    </div>
+    <input type="image" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695
+        " name="cardBtn" button id="card1" class="btn btn-default btn-sm
+        btn-primary cardBtn">
+    </button>
+
+    <input type="image" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695
+        " name="cardBtn" button id="card2" class="btn btn-default btn-sm
+        btn-primary cardBtn">
+    </button>
+
+    <input type="image" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695
+        " name="cardBtn" button id="card3" class="btn btn-default btn-sm
+        btn-primary cardBtn">
+    </button>
+
+    <input type="image" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695
+        " name="cardBtn" button id="card4" class="btn btn-default btn-sm
+        btn-primary cardBtn">
+    </button>
+    </div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
